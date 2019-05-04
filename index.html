@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8" />
-    <title>A simple map</title>
+    <title>Breweries I want to get drunk at</title>
     <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css" />
     <style>
@@ -45,7 +45,7 @@
                     '<a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
                     'Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
                 //can switch to other formats like .light and .satellite
-                id: 'mapbox.streets'
+                id: 'mapbox.light'
             }).addTo(map);
             // Add requested external GeoJSON to map
             var kyCounties = L.geoJSON(counties.responseJSON).addTo(map);
